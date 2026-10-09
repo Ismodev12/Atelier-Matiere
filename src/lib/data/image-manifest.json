@@ -1,0 +1,39 @@
+{
+  "_note": "Registre central des visuels. 'path' = fichier local dans public/assets/images ; 'unsplash' = identifiant de la photo source (licence Unsplash). Lancez `npm run images:download` puis NEXT_PUBLIC_LOCAL_IMAGES=true pour servir les fichiers locaux. Ces photos sont ILLUSTRATIVES : remplacez-les par les photos réelles des produits.",
+  "images": {
+    "hero.main": { "path": "hero/coffret-grave-atelier.jpg", "unsplash": "1582126486298-9d5194a50d82", "alt": "Coffret en bois gravé posé sur un établi, lumière chaude d'atelier" },
+    "hero.glass": { "path": "hero/vase-verre-lumiere.jpg", "unsplash": "1563261883-25b59aad64d8", "alt": "Vase en verre clair baigné de lumière naturelle" },
+
+    "category.bois": { "path": "categories/bois-coffret.jpg", "unsplash": "1549315393-aeac60e09d29", "alt": "Coffret rectangulaire en bois posé sur une table" },
+    "category.verre": { "path": "categories/verre-vase.jpg", "unsplash": "1546387903-6d82d96ccca6", "alt": "Branches d'eucalyptus dans un vase en verre clair" },
+    "category.cadeaux": { "path": "categories/cadeaux-verres-prenoms.jpg", "unsplash": "1615477836628-eef5335368e7", "alt": "Verres à vin personnalisés avec des prénoms" },
+    "category.sur-mesure": { "path": "categories/decoration-photophore.jpg", "unsplash": "1626116250038-bb609f3be1bb", "alt": "Photophore en bois composé de cercles avec bougies" },
+
+    "product.coffret-noyer": { "path": "products/coffret-noyer.jpg", "unsplash": "1549315393-aeac60e09d29", "alt": "Coffret en bois aux veines marquées" },
+    "product.coffret-noyer-2": { "path": "products/coffret-noyer-detail.jpg", "unsplash": "1607437817193-3b3b029b5b75", "alt": "Coffret en bois à couvercle bombé" },
+    "product.planche-service": { "path": "products/planche-service.jpg", "unsplash": "1690983322029-eee73c0afa14", "alt": "Planche de service en bois sur un plan de travail sombre" },
+    "product.planche-service-2": { "path": "products/planche-service-dessus.jpg", "unsplash": "1617695615794-a5abcece0f48", "alt": "Planche en bois vue de dessus" },
+    "product.planche-service-3": { "path": "products/planche-service-couteaux.jpg", "unsplash": "1666013942797-9daa4b8b3b4f", "alt": "Planche en bois accompagnée de couteaux" },
+    "product.verres-prenoms": { "path": "products/verres-prenoms.jpg", "unsplash": "1615477836628-eef5335368e7", "alt": "Verres à vin portant des prénoms" },
+    "product.verres-prenoms-2": { "path": "products/verre-pied-cristal.jpg", "unsplash": "1608264959380-0ae9ee6beca3", "alt": "Verre à pied ciselé sur une table en bois" },
+    "product.carafe": { "path": "products/carafe-verre.jpg", "unsplash": "1743187360373-513ac4a7266f", "alt": "Carafe en verre au motif en relief" },
+    "product.vase": { "path": "products/vase-verre.jpg", "unsplash": "1563261883-25b59aad64d8", "alt": "Vase en verre clair dans la lumière" },
+    "product.vase-2": { "path": "products/vase-verre-eucalyptus.jpg", "unsplash": "1546387903-6d82d96ccca6", "alt": "Vase en verre avec eucalyptus" },
+    "product.photophore": { "path": "products/photophore-cercles.jpg", "unsplash": "1626116250038-bb609f3be1bb", "alt": "Photophore en bois à trois cercles" },
+    "product.dessous-verre": { "path": "products/dessous-de-verre.jpg", "unsplash": "1784901391087-cf971397acdc", "alt": "Dessous-de-verre ronds en bois dans leur support" },
+    "product.dessous-verre-2": { "path": "products/dessous-de-verre-tasse.jpg", "unsplash": "1646083571835-d61f58bb00b6", "alt": "Tasse en bois posée sur un dessous-de-verre" },
+    "product.coffret-sculpte": { "path": "products/coffret-sculpte.jpg", "unsplash": "1672664003230-106aa4f534c7", "alt": "Coffret en bois sculpté de motifs floraux" },
+    "product.planche-pain": { "path": "products/planche-palette.jpg", "unsplash": "1587302108992-20648821725d", "alt": "Planche en bois à manche sur fond blanc" },
+    "product.bols": { "path": "products/bols-bois.jpg", "unsplash": "1759801345051-0d5d3713efb4", "alt": "Pile de coupelles carrées en bois" },
+    "product.boite-alliances": { "path": "products/boite-alliances.jpg", "unsplash": "1694708864523-af6313925bad", "alt": "Petite boîte en bois ouverte contenant une bague" },
+    "product.verre-pied": { "path": "products/verre-pied.jpg", "unsplash": "1608264959380-0ae9ee6beca3", "alt": "Verre à pied ciselé" },
+
+    "workshop.rabot": { "path": "workshop/atelier-rabot.jpg", "unsplash": "1779031242480-b3ee36ff9d02", "alt": "Artisan façonnant une pièce de bois au rabot" },
+    "workshop.ciseau": { "path": "workshop/atelier-ciseau.jpg", "unsplash": "1497219055242-93359eeed651", "alt": "Main travaillant le bois au ciseau" },
+    "workshop.trace": { "path": "workshop/atelier-trace.jpg", "unsplash": "1659930087003-2d64e33181f7", "alt": "Tracé au crayon sur une planche de bois" },
+    "workshop.copeaux": { "path": "workshop/atelier-copeaux.jpg", "unsplash": "1759523131742-af817477bcd9", "alt": "Outils et copeaux sur un établi" },
+    "workshop.emballage": { "path": "workshop/emballage-kraft.jpg", "unsplash": "1764764138587-189f22804ec4", "alt": "Paquet en papier kraft fermé par une ficelle et un sceau" },
+    "workshop.emballage-mains": { "path": "workshop/emballage-mains.jpg", "unsplash": "1764845357195-06f744d1c972", "alt": "Mains emballant des cadeaux dans du papier kraft" },
+    "workshop.etageres": { "path": "workshop/etageres-lumiere.jpg", "unsplash": "1760445529402-3accb85b4dfc", "alt": "Étagères en bois et objets dans une lumière chaude" }
+  }
+}
